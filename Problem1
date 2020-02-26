@@ -1,0 +1,8 @@
+vowelCounter = 0
+vowelList = ['a', 'e', 'i', 'o', 'u']
+
+for i in s:
+    if i in vowelList:
+        vowelCounter += 1
+
+print('Number of Vowels: ' + str(vowelCounter))
